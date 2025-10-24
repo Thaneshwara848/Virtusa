@@ -1,0 +1,20 @@
+package P2;
+import p1.A;
+public class D extends A {
+	
+	void display() {
+		System.out.println(a);
+		//System.out.println(b); private 
+		System.out.println(c);
+		System.out.println(d); // no bcz only same pack
+	}
+}
+class E extends D
+{
+	void display() {
+		System.out.println(a);
+		System.out.println(b); //private 
+		System.out.println(c);
+		System.out.println(d); // no bcz only same pack
+	}
+}

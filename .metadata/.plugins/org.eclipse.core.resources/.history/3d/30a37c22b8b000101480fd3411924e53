@@ -1,0 +1,31 @@
+package comA;
+
+class A
+{						// to call the insatance var/ method we meed must have to Create obj 
+	int a =100;			// instance valiable 
+	void display() {	// instance method 
+		System.out.println("Hi Display method .....!");
+	}
+	
+	static int b=200;
+	static void abc() {
+		System.out.println("Hi ABC method ");
+	}
+}
+public class Demo1 {
+	public static void main(String[] args) {
+		
+		// A a1 = new A();
+//		 System.out.println(a1.a);
+//		 a1.display();
+		
+//		Static : no need to create obj / it will not belogs to obj ,(it will belongs class)
+		
+//		var : CLASSNAME.VARIBALENAME
+//		method : Classname.methodName
+		
+		System.out.println(A.b);
+		A.abc();
+		 
+	}
+}

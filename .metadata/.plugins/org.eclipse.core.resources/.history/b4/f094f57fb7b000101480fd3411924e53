@@ -1,0 +1,20 @@
+package comA;
+
+class A
+{						// to call the insatance var/ method we meed must have to Create obj 
+	int a =100;			// instance valiable 
+	void display() {	// instance method 
+		System.out.println("Hi Display method .....!");
+	}
+
+}
+public class Demo1 {
+	public static void main(String[] args) {
+		
+		// A a1 = new A();
+		 System.out.println(a1.a);
+		 a1.display();
+		
+		 
+	}
+}

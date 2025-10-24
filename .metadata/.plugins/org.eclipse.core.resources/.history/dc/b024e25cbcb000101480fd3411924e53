@@ -1,0 +1,10 @@
+package comB;
+class Car
+{
+	
+}
+public class Demo1 {
+	public static void main(String[] args) {
+		Car c = new Car();
+	}
+}

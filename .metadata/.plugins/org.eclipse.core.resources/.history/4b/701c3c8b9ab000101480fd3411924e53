@@ -1,0 +1,19 @@
+package PolyDemo;
+class Bank
+{
+	
+}
+class Sbi
+{
+	
+}
+class Axis
+{
+	
+}
+public class Demo2 {
+		public static void main(String[] args) {
+			
+		}
+
+}

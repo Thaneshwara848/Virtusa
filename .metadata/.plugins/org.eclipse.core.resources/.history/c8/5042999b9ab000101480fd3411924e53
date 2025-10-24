@@ -1,0 +1,21 @@
+package PolyDemo;
+class Bank
+{
+	void roi() {
+		System.out.println("10 % ");
+	}
+}
+class Sbi extends Bank
+{
+	
+}
+class Axis extends Bank
+{
+	
+}
+public class Demo2 {
+		public static void main(String[] args) {
+			
+		}
+
+}

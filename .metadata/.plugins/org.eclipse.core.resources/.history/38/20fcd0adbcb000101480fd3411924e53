@@ -1,0 +1,23 @@
+package comB;
+class Car
+{
+	final int speed= 200 ;//we can not re assign the values 
+	void gare() {
+		System.out.println("5 gare car");
+	}
+}
+class Varna  extends Car
+{
+	
+}
+public class Demo1 {
+	public static void main(String[] args) {
+		Car c = new Car();
+		System.out.println(c.speed);
+		//c.speed=2000;			we can not re assign the values 		
+		//System.out.println(c.speed);
+
+		Varna v = new Varna();
+		v.gare();
+	}
+}

@@ -1,0 +1,36 @@
+package comA;
+
+class A
+{
+	
+}
+class B extends A 
+{
+	// single level 
+}
+class C extends A
+{
+	// multilevel 
+}
+class E extends A
+{
+	// multilevel 
+}
+class E1 extends E
+{
+	// multilevel 
+}
+class E2 extends E
+{
+	// multilevel 
+}
+class C1 extends C
+{
+	// multilevel 
+}
+public class Demo1 {
+	public static void main(String[] args) {
+		
+	}
+}
+

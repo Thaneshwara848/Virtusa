@@ -1,0 +1,37 @@
+package PolyDemo;
+class Emp{
+	// method is only one but diffeenent behiviour : ploymophisn
+	// 2 compile time ----- Static binding
+			// over loding 
+//					1 ) constructore over lodibg 
+//					2) method over loding 
+	// run time ----- Dynimic Binding
+			// over riding  
+					// method over rdibng 
+					// constructor over riding : this will not suppoert 
+	Emp(){}
+	Emp(int id , String name , int age , String desig, int Salary, String pan ){
+			// HR 
+	}
+	Emp(int id , String name , String project, String location){
+			System.out.println("Manager Prospective ");
+	}
+	void draw(){
+		System.out.println("you can draw what ever you want ");
+	}
+	void draw(int r){
+		System.out.println("Area of Cicle : "+ (2 *2.5 *r * r ));
+	}
+	void draw(int l,int b){
+		System.out.println("Rectazngle :"+ (l *b));
+	}
+}
+public class Demo1 {
+	public static void main(String[] args) {
+		Emp e = new Emp();
+		e.draw();
+		e.draw(10);
+		e.draw(150, 20);	
+		Emp e1= new Emp(100,"Thanesh","FB","BANGLORE");
+	}
+}

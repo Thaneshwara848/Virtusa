@@ -1,0 +1,30 @@
+package P2;
+import p1.A;
+public class D extends A {
+	
+	void display() {
+		System.out.println(a);
+		System.out.println(b); private 
+		System.out.println(c);
+		System.out.println(d); // no bcz only same pack
+	}
+}
+class E extends D
+{
+	void display() {
+		System.out.println(a);
+		System.out.println(b); //private 
+		System.out.println(c);
+		System.out.println(d); // no bcz only same pack
+	}
+}
+class F
+{
+	void display() {
+		A a1 = new A();
+		System.out.println(a1.a);
+		System.out.println(a1.b); //private 
+		System.out.println(a1.c);//  its not a sub class 
+		System.out.println(a1.d); // only same package 
+	}
+}

@@ -1,0 +1,20 @@
+package PolyDemo;
+class Emp
+{
+	void draw(){
+		
+	}
+	void draw(int r){
+		System.out.println("Area of Cicle : "+ (2 *2.5 *r * r ));
+	}
+	void draw(int l,int b){
+		System.out.println("Rectazngle :"+ (l *b));
+	}
+
+}
+public class Demo1 {
+	public static void main(String[] args) {
+
+		
+	}
+}

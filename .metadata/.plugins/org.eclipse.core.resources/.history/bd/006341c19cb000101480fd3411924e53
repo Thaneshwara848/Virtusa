@@ -1,0 +1,37 @@
+package PolyDemo;
+class Bank
+{
+	Bank(){
+		System.out.println("Hi Welcome to BANk ");
+	}
+	public void roi() {
+		System.out.println("10 % ");
+	}
+}
+class Sbi extends Bank
+{
+	
+}
+class Axis extends Bank
+{
+//	Bank(){
+//		System.out.println("Hi Welcome to BANk ");
+//		// Class name and COnstrucr Name must be same : hince it will not suppoert
+//	}
+	@Override
+	public void roi() {
+		System.out.println("13 % ");
+		// same method on;y but diffenenet implemention
+		// what ever we have in super class -- it 
+			// methond name and signature must be same 
+	}
+}
+public class Demo2 {
+		public static void main(String[] args) {
+			
+//			Sbi s = new Sbi();			s.roi();
+			Bank s = new Sbi();			s.roi();
+			Axis a = new Axis();		a.roi();
+		}
+
+}

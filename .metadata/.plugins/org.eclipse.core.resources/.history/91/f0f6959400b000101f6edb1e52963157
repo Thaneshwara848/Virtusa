@@ -1,0 +1,19 @@
+package comB;
+class A
+{
+	
+}
+
+class B
+{
+	B(){
+		System.out.println("Hi B class ");
+	}
+}
+public class Demo1 {
+
+	public static void main(String[] args) {
+		
+			B b = new B();
+	}
+}

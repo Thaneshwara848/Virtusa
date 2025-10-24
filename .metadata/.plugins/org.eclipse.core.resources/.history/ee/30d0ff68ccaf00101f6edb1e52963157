@@ -1,0 +1,27 @@
+package com;
+
+class I
+{
+	int a =1000;
+	I(){
+		int a =100 ;				// its a local var 
+		System.out.println(a);		//100
+		System.out.println(this.a);	
+	}
+	void display() {
+		System.out.println(a);		// 1000
+	}
+}
+public class Demo2 {
+	public static void main(String[] args) {
+		
+//		Data Types  
+//		Local variables
+//		Instance variables or Member variables or Global variables
+//		Static variables or Class variables
+//		Final variables
+		
+		I i = new I();
+		i.display();
+	}
+}

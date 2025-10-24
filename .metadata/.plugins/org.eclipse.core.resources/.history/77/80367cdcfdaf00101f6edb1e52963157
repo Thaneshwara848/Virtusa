@@ -1,0 +1,15 @@
+package comA;
+
+class A
+{
+	
+}
+class B 
+{
+	
+}
+public class Demo1 {
+	public static void main(String[] args) {
+		
+	}
+}

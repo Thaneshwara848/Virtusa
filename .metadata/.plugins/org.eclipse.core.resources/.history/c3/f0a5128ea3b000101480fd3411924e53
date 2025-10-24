@@ -1,0 +1,15 @@
+package PolyDemo;
+class X
+{
+	void abc() {
+		System.out.println("Hi Abc Method ");
+	}
+}
+public class Demo3 {
+	public static void main(String[] args) {
+		
+			X x = new X();
+			x.abc();
+		
+	}
+}

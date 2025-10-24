@@ -1,0 +1,32 @@
+package PolyDemo;
+class X
+{
+	X(){
+		this(100);
+		System.out.println("Hi X construr");
+	}
+	X(int a){
+		System.out.println("Hi X(int a ) construr");
+	}
+	X(int a,int b){
+		System.out.println("Hi X(int a ) construr");
+	}
+	
+	void abc() {
+		System.out.println("Hi Abc Method ");
+		this.xyz();
+	}
+	void xyz() {
+		System.out.println("Hi Xyz method ");
+	}
+}
+public class Demo3 {
+	public static void main(String[] args) {
+		
+			X x = new X();
+			x.abc();
+//			x.xyz();
+//			X x1= new X(100);
+		
+	}
+}

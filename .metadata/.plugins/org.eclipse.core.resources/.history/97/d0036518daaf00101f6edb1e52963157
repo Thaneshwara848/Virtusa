@@ -1,0 +1,18 @@
+package com;
+
+class Developer
+{
+	
+}
+class Tester 
+{
+	
+}
+public class Demo {
+
+	public static void main(String[] args) {
+	
+
+	}
+
+}

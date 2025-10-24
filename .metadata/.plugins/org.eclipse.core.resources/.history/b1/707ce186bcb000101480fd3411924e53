@@ -1,0 +1,13 @@
+package comB;
+class Car
+{
+	final int speed= 200 ;
+}
+public class Demo1 {
+	public static void main(String[] args) {
+		Car c = new Car();
+		System.out.println(c.speed);
+		//c.speed=2000;			we can not re assign the values 		
+		//System.out.println(c.speed);
+	}
+}

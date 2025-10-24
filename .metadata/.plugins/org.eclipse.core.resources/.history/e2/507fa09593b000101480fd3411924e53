@@ -1,0 +1,28 @@
+package comC;
+class Parent
+{
+	
+
+}
+
+class Child
+{
+
+	public void display(int a) {
+		
+		System.out.println(a);
+		
+	}
+	
+
+}
+public class Demo1 {
+
+	public static void main(String[] args) {
+		
+		Child c = new Child();
+		c.display();
+		
+	}
+
+}

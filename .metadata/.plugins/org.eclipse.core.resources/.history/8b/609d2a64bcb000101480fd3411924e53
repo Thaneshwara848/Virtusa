@@ -1,0 +1,12 @@
+package comB;
+class Car
+{
+	int speed= 200 ;
+}
+public class Demo1 {
+	public static void main(String[] args) {
+		Car c = new Car();
+		System.out.println(c.speed);
+		c.speed=2000;
+	}
+}
