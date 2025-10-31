@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Home Page</title>
+
+<style>
+    /* Background setup */
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        background-image: url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1500&q=80');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        color: #fff;
+        text-align: center;
+    }
+
+    /* Overlay for better readability */
+    .overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .content {
+        position: relative;
+        z-index: 1;
+        padding-top: 120px;
+    }
+
+    h1 {
+        font-size: 40px;
+        margin-bottom: 50px;
+        text-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+    }
+
+    /* Buttons */
+    .btn {
+        background-color: rgba(255, 255, 255, 0.2);
+        color: #fff;
+        border: 2px solid #fff;
+        padding: 12px 35px;
+        margin: 15px;
+        border-radius: 30px;
+        font-size: 18px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: 0.3s;
+        backdrop-filter: blur(4px);
+    }
+
+    .btn img {
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+    }
+
+    .btn:hover {
+        background-color: #007bff;
+        border-color: #007bff;
+        transform: scale(1.1);
+    }
+
+    footer {
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        color: #ddd;
+        font-size: 14px;
+    }
+</style>
+</head>
+
+<body>
+    <div class="overlay"></div>
+
+    <div class="content">
+        <h1>🌟 Welcome to Employee Management System 🌟</h1>
+
+        <form action="Registration.html">
+            <button class="btn">
+                <img src="https://cdn-icons-png.flaticon.com/512/992/992651.png" alt="insert"> INSERT
+            </button>
+        </form>
+
+        <form action="DisplayRecord">
+            <button class="btn">
+                <img src="https://cdn-icons-png.flaticon.com/512/1828/1828778.png" alt="display"> DISPLAY
+            </button>
+        </form>
+
+        <form action="Update.html">
+            <button class="btn">
+                <img src="https://cdn-icons-png.flaticon.com/512/1828/1828911.png" alt="update"> UPDATE
+            </button>
+        </form>
+
+        <form action="Delete.html">
+            <button class="btn">
+                <img src="https://cdn-icons-png.flaticon.com/512/1214/1214428.png" alt="delete"> DELETE
+            </button>
+        </form>
+    </div>
+
+    <footer>© 2025 Employee Management Portal | Designed by Thaneshwara</footer>
+</body>
+</html>
